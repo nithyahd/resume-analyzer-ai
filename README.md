@@ -1,19 +1,38 @@
-# Resume Analyzer AI
+# 🧠 Resume Analyzer AI
 
-This project is a simple AI-powered Resume Analyzer built using **React (Frontend)** and **Flask (Backend)**.
+A simple AI-powered resume analyzer built using **React** (Frontend) and **Flask** (Backend). This project helps extract and display key details from uploaded resumes.
+
+---
 
 ## 🔍 Features
 
-- Upload a resume in `.pdf` format
-- Extract important sections
-- Display information like name, email, skills, etc.
-- Simple UI for testing resume data extraction
+- 📄 Upload resume in `.pdf` format  
+- ✂️ Extracts key information like:
+  - Name
+  - Email
+  - Skills
+  - Experience (extendable)
+- 🧪 Simple and clean UI for testing resume parsing
+
+---
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React (Create React App)
-- **Backend**: Python Flask
-- **Others**: HTML, CSS, JavaScript
+- **Frontend**: React (Create React App), HTML, CSS, JavaScript  
+- **Backend**: Python Flask  
+- **Version Control**: Git & GitHub
+
+---
 
 ## 📁 Project Structure
+resume_project/
+├── backend/
+│ ├── app.py # Flask server
+│ └── upload.html # Simple upload UI (if used independently)
+├── resume-frontend/ # React frontend app
+│ ├── src/
+│ ├── public/
+│ ├── package.json
+│ └── ...
+└── .gitignore # Ignores node_modules, build, etc.
 
