@@ -1,0 +1,16 @@
+# Node modules
+resume-frontend/node_modules/
+
+# Build outputs
+resume-frontend/build/
+
+# Logs
+*.log
+
+# IDE settings
+.vscode/
+*.env
+
+# Python cache
+__pycache__/
+*.pyc
